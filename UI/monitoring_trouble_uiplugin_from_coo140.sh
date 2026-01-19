@@ -1105,7 +1105,7 @@ subjects:
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
-  name: user1-persesglobaldatasource-viewer-role
+  name: persesglobaldatasource-viewer-role
 EOF
 
 oc apply -f - <<EOF
@@ -1120,7 +1120,7 @@ subjects:
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
-  name: user2-persesglobaldatasource-viewer-role
+  name: persesglobaldatasource-viewer-role
 EOF
 
 oc apply -f - <<EOF
